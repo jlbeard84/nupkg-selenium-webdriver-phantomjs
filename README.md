@@ -18,7 +18,7 @@ At the package manager console on Visual Studio, enter following command:
 
 ## License
 
-This project is licensed under the BSD license in compliance with PhantomJS licensing resctrictions. See [LICENSE.bsd](license.bsd) for details.
+This project is licensed under the BSD license in compliance with PhantomJS licensing resctrictions. See [LICENSE.bsd](LICENSE.bsd) for details.
 
 ## Acknowledgments
 
