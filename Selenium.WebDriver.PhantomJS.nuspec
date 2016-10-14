@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Selenium.WebDriver.PhantomJS</id>
+    <version>1.0.0.0</version>
+    <authors>jlbeard84</authors>
+    <summary>Copies PhantomJS to your output directory upon build to prevent it from being needed to be checked in to source control.</summary>
+    <description>
+      Install Selenium.WebDriver.PhantomJS into your Unit Test Project.
+      "phantomjs.exe" is copied to bin folder from package folder when the build process.
+      / The MSBuild script that contained this package is free and unencumbered software released into the public domain.
+      / "phantomjs.exe" is licensed under the New BSD License.
+    </description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/jlbeard84/nupkg-selenium-webdriver-phantomjs/</projectUrl>
+    <licenseUrl>https://github.com/jlbeard84/nupkg-selenium-webdriver-phantomjs/LICENSE.bsd</licenseUrl>
+    <tags>Selenium WebDriver PhantomJS</tags>
+    <releaseNotes>
+      <![CDATA[
+      v.1.0
+      - Initial release.
+      ]]>
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="phantomjs.exe" target="driver"/>
+    <file src="Selenium.WebDriver.PhantomJS.targets" target="build"/>
+  </files>
+</package>
